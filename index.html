@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brett Murdock - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, rgb(179, 201, 255), rgb(255, 163, 163));
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 600px;
+        }
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+        }
+        a.project-link {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 1.4rem;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        a.project-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brett Murdock</h1>
+        <p>Web Developer / Designer</p>
+    </header>
+
+    <section class="projects">
+        <a href="https://bmurda.github.io/landingpage/" class="project-link" target="_blank">
+            Project One – Clean Landing Page
+        </a>
+        <a href="https://bmurda.github.io/backgroundgenerator/" class="project-link" target="_blank">
+            Project Two – Gradient Background Generator
+        </a>
+    </section>
+
+    <footer>
+        &copy; 2026 Brett Murdock. All rights reserved.
+    </footer>
+</body>
+</html>
